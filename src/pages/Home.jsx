@@ -3,7 +3,6 @@ import axios from "axios";
 
 const Home = () => {
   const apiKey = import.meta.env.VITE_OPENROUTER_API_KEY
-  console.log(apiKey)
   const [Idea, setIdea] = useState("");
   const [Category, setCategory] = useState("Ai Saas");
   const [result, setResult] = useState("");
